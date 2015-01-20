@@ -37,7 +37,7 @@ Releases for a browser are available for download from GitHub.
     var myEnum = new Enum(['A', 'B', 'C']);
 
     //define a flagged enum object to create a multicolor option; just pass an array
-    var myEnum = new Enum([Black', 'Red', 'Green', 'Blue']);
+    var myEnum = new Enum(['Black', 'Red', 'Green', 'Blue']);
     myEnum; //=> Enum {_options: Object, enums: Array[4], Black: EnumItem, Red: EnumItem, Green: EnumItem….....}
     myEnum.isFlaggable; //=> true
 
